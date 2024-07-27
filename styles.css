@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#content {
+    margin: 20px 0;
+}
+
+form {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+form input, form button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+form input {
+    flex: 1;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+form button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.candidate {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.candidate button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.candidate button:hover {
+    background-color: #218838;
+}
